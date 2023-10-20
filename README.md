@@ -2,6 +2,12 @@
 
 This API provides a way to manage users. It is intended for use by developers who need to integrate user management into their applications.
 
+## How to run 
+
+1- `yarn install `
+
+2- `yarn start `
+
 ## Authorization
 
 All requests to this API require a bearer token. To obtain a bearer token, send a POST request to the `/auth/login` endpoint with your email address and password in the request body. The response will contain a bearer token in the `Authorization` header.
